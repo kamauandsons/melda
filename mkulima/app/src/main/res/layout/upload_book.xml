@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/choose"
+                android:background="@android:color/background_light"
+                android:layout_margin="8dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+        >
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                        android:layout_gravity="center"
+                        android:src="@drawable/choose"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"/>
+                <TextView
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Choose Book"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <EditText
+                android:layout_below="@id/choose"
+                android:id="@+id/name"
+                android:padding="8dp"
+                android:textSize="20sp"
+                android:hint="Enter The Book Title: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        <com.github.barteksc.pdfviewer.PDFView
+                android:layout_below="@id/name"
+                android:id="@+id/pdfView"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="350dp" />
+
+
+        <androidx.cardview.widget.CardView
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/uprod"
+                android:background="@android:color/background_light"
+                android:layout_margin="8dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+        >
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                        android:layout_gravity="center"
+                        android:src="@drawable/images"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"/>
+                <TextView
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Upload"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+</layout>

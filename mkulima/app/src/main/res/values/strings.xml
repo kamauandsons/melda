@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">mkulima</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lib">Library</string>
+    <string name="uprod">Upload Product</string>
+    <string name="vprod">View Product</string>
+    <string name="book">Upload Book</string>
+    <string name="motto2">For The Future</string>
+    <string name="motto">Equip Farmers</string>
+</resources>

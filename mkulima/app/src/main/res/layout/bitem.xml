@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Each List Item is displayed as TextView defined below -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+    <ImageView
+            android:id="@+id/recipe"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="6dp"
+            android:contentDescription="Love is Enough"
+            android:scaleType="centerInside"
+            android:src="@drawable/book" />
+
+    <TextView
+            android:layout_marginTop="16dp"
+            android:text="john chege"
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="4dp"
+            android:paddingRight="4dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+    />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "691130217026",
+    "firebase_url": "https://mkulima-bora.firebaseio.com",
+    "project_id": "mkulima-bora",
+    "storage_bucket": "mkulima-bora.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691130217026:android:33e92697b8efcda50fb3db",
+        "android_client_info": {
+          "package_name": "com.example.mkulima"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691130217026-o30hs2t8ral9dl9k452kcqq9uuvjrd6s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mkulima",
+            "certificate_hash": "cf17ac789d5f9a2f9eded31ec1f679d20889fade"
+          }
+        },
+        {
+          "client_id": "691130217026-usf7mr3lipvfsalqenv3ie9prnm5o27l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDUPcoI3hwegSs9MDDGrh2KZFU8Na-2JI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691130217026-usf7mr3lipvfsalqenv3ie9prnm5o27l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/navigate"
+            app:startDestination="@id/login">
+
+    <fragment android:id="@+id/home" android:name="com.example.mkulima.home" android:label="home">
+        <action android:id="@+id/action_home_to_upload_books" app:destination="@id/upload_books"/>
+        <action android:id="@+id/action_home_to_view_products" app:destination="@id/view_products"/>
+        <action android:id="@+id/action_home_to_library" app:destination="@id/library"/>
+        <action android:id="@+id/action_home_to_upload_products" app:destination="@id/upload_products"/>
+    </fragment>
+    <fragment android:id="@+id/library" android:name="com.example.mkulima.library" android:label="library">
+        <action android:id="@+id/action_library_to_book" app:destination="@+id/book"/>
+    </fragment>
+    <fragment android:id="@+id/upload_books" android:name="com.example.mkulima.upload_books"
+              android:label="upload_books"/>
+    <fragment android:id="@+id/upload_products" android:name="com.example.mkulima.upload_products"
+              android:label="upload_products"/>
+    <fragment android:id="@+id/view_products" android:name="com.example.mkulima.view_products"
+              android:label="view_products"/>
+    <fragment android:id="@+id/login" android:name="com.example.mkulima.login" android:label="login">
+        <action android:id="@+id/action_login_to_home" app:destination="@id/home"/>
+    </fragment>
+    <fragment android:id="@+id/book" android:name="com.example.mkulima.book" android:label="book">
+        <argument android:name="title" app:argType="string"/>
+        <argument android:name="url" app:argType="string"/>
+    </fragment>
+</navigation>

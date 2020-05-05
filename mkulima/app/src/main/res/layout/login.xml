@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/black">
+
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:id="@+id/loginbtn"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="8dp"/>
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/grape"
+                android:id="@+id/imageView2"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="8dp"
+                tools:layout_editor_absoluteX="26dp"/>
+        <TextView
+                android:text="@string/motto"
+                android:layout_marginTop="48dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/cy"
+                android:textSize="32sp"
+                android:id="@+id/txt"/>
+        <TextView
+                android:text="@string/motto2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/cy"
+                android:textSize="32sp"
+                android:layout_below="@+id/txt"
+                android:id="@+id/txt2"/>
+
+
+    </RelativeLayout>
+</layout>

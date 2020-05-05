@@ -87,7 +87,7 @@ class upload_books : Fragment() {
 
         //storage location of image with the image name
         val productImageRef = mStorage.reference.
-            child("pdfs/"+binding.name.text +"@" + UUID.randomUUID().toString())
+            child("pdfs/"+binding.name.text +"@" + UUID.randomUUID().toString()+".pdf")
 
 
         //task to upload the selected image url to the specific location
